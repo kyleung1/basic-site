@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<style>
+    embed {display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<center><h1>Resume</h1></center>
+
+<body>
+
+    <embed src="\static\pdf\Resume1.pdf" width="1000" height="900"
+    type="application/pdf" class = "center">
+
+</body>
+<hr>
+{% endblock %}
